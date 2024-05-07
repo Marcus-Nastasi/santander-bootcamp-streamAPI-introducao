@@ -10,6 +10,14 @@ public class Person {
         this.heigth = heigth;
     }
 
+    @Override
+    public String toString() {
+        return(
+            "Person{" + "name='" + name + '\'' +
+            ", heigth=" + heigth + '}'
+        );
+    }
+
     public String getName() {
         return name;
     }
